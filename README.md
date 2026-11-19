@@ -159,6 +159,18 @@ These findings are based on synthetic authentication data and do not represent c
 
 ### 1. Security Detection Results
 
+![Security Detection Results](screenshots/01-security-detection-results.png)
+
+### 2. Automated Unit Testing
+
+![Automated Unit Test Results](screenshots/02-unit-test-results.png)
+
+### 3. JSON and CSV Security Reports
+
+![Security Report Generation](screenshots/03-report-generation.png)
+
+### 1. Security Detection Results
+
 The analyzer successfully identified all three suspicious authentication patterns and generated corresponding HIGH-severity alerts.
 
 The screenshot demonstrates:
