@@ -155,19 +155,32 @@ The analyzer correlated the authentication events and generated a HIGH-severity 
 
 These findings are based on synthetic authentication data and do not represent confirmed real-world attacks or account compromise.
 
+
 ## Evidence Screenshots
 
 ### 1. Security Detection Results
+
+The analyzer identified three suspicious SSH authentication patterns:
+brute-force activity, password spraying, and successful authentication
+following repeated failures.
 
 ![Security Detection Results](screenshots/01-security-detection-results.png)
 
 ### 2. Automated Unit Testing
 
+Eight automated unit tests passed, validating log parsing,
+authentication counts, detection rules, normal activity handling,
+and JSON/CSV report generation.
+
 ![Automated Unit Test Results](screenshots/02-unit-test-results.png)
 
 ### 3. JSON and CSV Security Reports
 
+The analyzer generated three structured security alerts and
+exported the findings into JSON and CSV reports.
+
 ![Security Report Generation](screenshots/03-report-generation.png)
+
 
 ### 1. Security Detection Results
 
