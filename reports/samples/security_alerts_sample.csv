@@ -1,0 +1,4 @@
+alert_type,severity,source_ip,username,failed_attempts,targeted_users,first_seen,last_seen,first_failure,successful_login
+BRUTE_FORCE,HIGH,198.51.100.23,,5,admin,2026-11-18T10:05:00,2026-11-18T10:06:20,,
+PASSWORD_SPRAYING,HIGH,203.0.113.45,,4,"alice, bob, charlie, david",2026-11-18T10:10:00,2026-11-18T10:10:45,,
+SUCCESS_AFTER_FAILURES,HIGH,192.0.2.99,alice,3,,,,2026-11-18T10:15:00,2026-11-18T10:15:45
